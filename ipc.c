@@ -47,7 +47,7 @@ int producer()
     srand(time(NULL));
 
     i = 0;
-    while (i < 500) 
+    while (i < 5000) 
     {
         msg = rand() % 256;
         memset(buffer, 0, MAX_SIZE);
